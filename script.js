@@ -24,3 +24,9 @@ function fetchSimpsonQuotesJSON() {
 }
 
 fetchSimpsonQuotesJSON();
+
+const buttonChangeQuote = document.getElementById("button-change-quote");
+
+buttonChangeQuote.addEventListener("click", fetchSimpsonQuotesJSON);
+
+
